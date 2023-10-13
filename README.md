@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Jakub</h1>
 <h3 align="center">The Shop app allowed users to buy various things. To manage the state of the application, I used React's built-in useState and useEffect hooks for saving session storage</h3>
 
-👨‍💻 Project available here: 
+👨‍💻 Project available here: https://advancedshopapp.netlify.app/
 
 <p align="left">
 </p>
