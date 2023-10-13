@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "noEmit": true, // Ta opcja wyłącza generowanie plików JavaScript
+    "allowImportingTsExtensions": true // Ta opcja jest teraz zgodna z "noEmit": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.jpg",
+    "src/**/*.png",
+    "src/**/*.svg"
+  ], // Dodaj obsługiwane rozszerzenia graficzne
+
+  "exclude": ["node_modules"]
+}
